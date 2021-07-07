@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+   padding: 40px 30px;
+}
+
+.main-title{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-storing{
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.box-storing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 0;
+}
+
+.text-storing{
+    width: 45%;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.paragraphe{
+    color: #b3b3b3;
+    font-size: 13px;
+    margin: 15px 0;
+}
+
+.storing-image{
+    width: 45%;
+}
+
+.store{
+    flex-direction: row-reverse;
+}
+
+.side-title{
+    text-align:start;
+}
+
+.side-graphe{
+    width: 300px;
+}
+
+.card-description{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.verticale-line{
+    display: inline-block;
+    border: 1px solid #b3b3b3;
+    height: 200px;
+}
+
+.box-descript{
+    width: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.position-1{
+    position: absolute;
+    top: -4%;
+    left: -1.5%;
+}
+
+.position-2{
+    position: absolute;
+    top: 35%;
+    left: -1.5%;
+}
+
+.position-3{
+    position: absolute;
+    bottom:-3%;
+    left: -1.5%;
+}
+
+.number{
+    width: 40px;
+    height: 40px;
+    background-color: #64b980;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.text-descrpt{
+    margin-left: 15px;
+}
+
+.graphe{
+   margin-top: 5px;
+}
+
+
+
+@media (max-width: 1023px){
+    .container{
+        max-width: 1000px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .container{
+        max-width: 700px;
+    }
+
+    .card-storing{
+        max-width:100%;
+    }
+}
+
+
+
+@media(max-width : 480px){
+    .box-storing{
+        display: block;
+    }
+
+    .text-storing{
+        width: 100%;
+    }
+
+    .storing-image{
+        width: 100%;
+    }
+
+    .card-description{
+        display: block;
+        margin-top: 10%;
+        margin-left: 0;
+    }
+    
+
+    .position-1,
+    .position-2,
+    .position-3{
+        left: -4%;
+    }
+
+    .main-title{
+        font-size: 20px;
+    }
+   
+}
+
+@media (max-width: 375px){
+    .container{
+        max-width: 100%;
+    }
+
+    .box-descript{
+        width: 100%;
+    }
+
+    .main-title{
+        font-size: 18px;
+    }
+
+    h4{
+        font-size: 16px;
+    }
+
+    .text-descrpt{
+        margin-left: 30px;
+    }
+    /* .verticale-line{
+        display: none;
+    } */
+}
+    
+
+
