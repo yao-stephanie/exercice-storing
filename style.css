@@ -51,6 +51,16 @@ h4{
 
 .storing-image{
     width: 45%;
+    border-radius: 50%;
+    background-color: #b3b3b3;
+    object-fit: contain;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.storing-image img{
+    width: 100%;
 }
 
 .store{
